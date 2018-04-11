@@ -27,4 +27,4 @@ after performing task in background to update result on UIThread PostExecute Met
 # ProgressUpdate<br>
 Prgressupdate is called when You want to continually update UI of UIThread from doInBackground and also wants to come back and perform task in doInBackground.<br>
 to do that you have to call<br>
-**publishProgress** from doInbackground<br>
+**publishProgress** in doInbackground<br>
