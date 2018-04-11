@@ -25,6 +25,6 @@ It executes on UI Thread.<br>
 after performing task in background to update result on UIThread PostExecute Method get called.<br>
 <br>
 # ProgressUpdate<br>
-If You want to continually update UI of UIThread from doInBackground and also wants to come back and perform task in doInBackground.<br>
+Prgressupdate is called when You want to continually update UI of UIThread from doInBackground and also wants to come back and perform task in doInBackground.<br>
 to do that you have to call<br>
 **publishProgress** from doInbackground<br>
